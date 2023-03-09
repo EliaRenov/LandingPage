@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    height: 72px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    padding: 0rem 30rem;
+    align-items: center;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.one {
+    background-color: #1F2937;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 150px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.one h2 {
+    font-size: 48px;
+    width: 500px;
+}
+
+.one p {
+    width: 400px;
+    font-weight: 500;
+}
+
+.one .sign-up {
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    padding: 10px 30px; 
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.one-placeholder {
+    background-color: rgb(104, 107, 108);
+    height: 200px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.two h2 {
+    margin-bottom: 60px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.content {
+    border: 4px solid rgb(26, 148, 152);
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.subtext {
+    margin-top: 0.5rem;
+    width: 175px;
+    font-size: 16px;
+    color: rgb(87, 81, 81);
+}
+
+.three {
+    margin: 5rem 0;
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.three .quote {
+    align-self: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.quote-text {
+    font-size: 40px;
+    font-weight: 400;
+    color: #5d5e5e;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+    font-weight: 500;
+}
