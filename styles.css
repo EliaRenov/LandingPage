@@ -51,7 +51,7 @@
     font-weight: 500;
 }
 
-.one .sign-up {
+.sign-up {
     background-color: #3882F6;
     color: white;
     border: 0;
@@ -59,6 +59,7 @@
     border-radius: 10px;
     font-size: 1.2rem;
     margin-top: 1rem;
+    border: 2px solid white;
 }
 
 .one-placeholder {
@@ -128,4 +129,22 @@
     justify-content: flex-end;
     font-size: 26px;
     font-weight: 500;
+}
+
+.four .container {
+    margin: auto auto;
+    display: flex;
+    height: 200px;
+    width: 75%;
+    background-color: #3882F6;
+    color: white;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.four .top-text {
+    font-size: 1.4rem;
+    font-weight: 600;
 }
